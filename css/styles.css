@@ -1,27 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 :root {
   --first-text-color: #212121;
   --background-color: #e5e5e5;
   --highlight-color: #2196f3;
+  --main-font: Roboto;
+  --accent-font: Raleway;
+}
+body {
+  font-family: Roboto;sans-serif;
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: rgba(255, 255, 255, 1);
 }
 .logo {
-  color: var(--first-text-color);
-  font-family: Raleway;
+  color:#2196F3;
+  font-family:var(--accent-font)
   font-size: 26px;
   line-height: 1.2;
   font-style: normal;
   font-weight: bold;
 }
-.list {
+.logo:hover{color:#2196f3 }
+.logo:focus{color:#2196f3 }
+.list-item {
   color: var(--first-text-color);
   font-size: 14px;
-  font-family: Roboto;
   font-style: normal;
   line-height: 1.14;
   font-weight: 500;
 }
+.list-item a:hover{color:#2196f3 }
+.list-item a:focus{color:#2196f3 }
+.list-link a:hover{color:#2196f3 }
+.list-link a:focus{color:#2196f3 }
+.list-mail {
+  color: rgba(33, 150, 243, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list-mail :hover{color:#2196f3 }
+.list-mail :focus{color:#2196f3 }
+
+.list-tel {
+  color: rgba(117, 117, 117, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list-tel :hover{color:#2196f3 }
+.list-tel :focus{color:#2196f3 }
 .hero {
   background-color: #2f303a;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -33,15 +71,15 @@
   background-color: #2196f3;
   color: #ffffff;
   font-size: 16px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   line-height: 1.9;
   text-align: center;
+  box-shadow: 0px 4px 4px;
+  border-radius: 4px;
 }
 .box-head {
   color: #212121;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -49,7 +87,6 @@
 }
 .box-list {
   color: #757575;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -57,7 +94,7 @@
 }
 .box-title {
   color: #212121;
-  font-family: Roboto;
+  
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -69,22 +106,94 @@
 }
 .holder-title {
   color: #212121;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-.holder-text {
-  background-color: #ffffff;
-}
+
 .holder-subtitle {
   color: #212121;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.holder-list {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.footer {
+  background-color: #2f303a;
+}
+.adress-list {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adress-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adress-list:hover{color:#2196f3 }
+.adress-list:focus{color:#2196f3 }
+.adress-link:hover{color:#2196f3 }
+.adress-link:focus{color:#2196f3 }
+/* portfolio */
+}
+.filter-button {
+  background-color:#F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border-radius: 4px;
+}
+.filter-button:active{
+  color:white;
+  background-color: var(--highlight-color);
+}
+.filter-button:focus{
+  color:white;
+  background-color: var(--highlight-color);
+}
+.filter-button:hover{
+  color:white;
+  background-color: var(--highlight-color);
+}
+.title {
+  color: rgba(33, 33, 33, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.task {
+  color: rgba(117, 117, 117, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+line-height: 1.9;
+
+}
+.slogan {
+ color: var(--highlight-color);
+}
+.slogan-studio {
+color: rgba(0, 0, 0, 1);
+
+}
+.footer-slogan {
+  color: rgba(255, 255, 255, 1);
 }
