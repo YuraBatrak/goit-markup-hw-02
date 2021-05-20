@@ -126,12 +126,14 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .adress-link {
   color: #ffffff99;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .adress-list:hover{color: var(--highlight-color) }
 .adress-list:focus{color: var(--highlight-color) }
