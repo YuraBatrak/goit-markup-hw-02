@@ -110,6 +110,7 @@ a {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
+  font-weight: 500;
 }
 .holder-list {
   color: var(--second-text-color);
@@ -147,6 +148,7 @@ a {
   text-align: center;
   border-radius: 4px;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
 .filter-button:active{
   color: var(--white-color);
